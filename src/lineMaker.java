@@ -3,7 +3,7 @@ import javafx.scene.shape.Line;
 import static javafx.scene.paint.Color.BLUE;
 
 /**
- * Created by timurguler on 10/30/16.
+ * updated by timurguler on 4/4/2019.
  */
 public class lineMaker extends Line
 {

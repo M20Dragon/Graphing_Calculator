@@ -11,7 +11,7 @@ import javafx.stage.Stage;
 /**
  * DOC INFORMATION
  *
- * Created by gulertimur27 on 10/27/2016.
+ * updated by gulertimur27 on 4/4/2019.
  * THIS APPLICATION IS OWNED BY TIMUR GULER AND IS DISTRIBUTED AS AN OPEN SOURCE GRAPHING CALCULATOR
  * PLEASE DO NOT USE WITHOUT PERMISSION
  */
@@ -19,7 +19,7 @@ import javafx.stage.Stage;
 /**
  * DESCRIPTION
  *
- * WAVÉ GRAPHING CALCULATOR v 0.9.1
+ * WAVÉ GRAPHING CALCULATOR v 0.9.2
  *
  * WHATS NEW?
  * -added support for zoom functionality
@@ -31,7 +31,7 @@ import javafx.stage.Stage;
  * -dynamic window ranging ... if xMax/xMin too small for function to appear continuous, add points to make continuous
  * -coordinate mapping
  *
- * THIS IS THE SOURCE FOR THE CALCULATOR THAT WILL BE USED IN THE WAVÉ OPERATING SYSTEM
+ *
  *
  *
  */
@@ -59,7 +59,7 @@ public class appFrame extends Application
         equationField.setMaxWidth(150);
         equationField.setTranslateX(265);
         equationField.setTranslateY(-320);
-        equationField.setText("(x^3)+(2*x^2)+(4*x)+(7)");
+        equationField.setText("x^2");
         mainPane.getChildren().add(equationField);
 
         //Window Settings separator and Label

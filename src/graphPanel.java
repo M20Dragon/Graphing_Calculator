@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 
 /**
- * Created by timurguler on 10/27/16.
+ * updated by timurguler27 on 4/4/2019.
  */
 public class graphPanel extends Stage
 {
